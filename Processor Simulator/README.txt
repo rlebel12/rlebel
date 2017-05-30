@@ -1,9 +1,3 @@
-Testbench to run: cpu_tb.v
-
-Simulation time: 6100000 ps (At least this duration, as testbench will also stop simulation at this point.
-Just be sure to select 'No' if a window pops up asking to finish the simulation.)
-
-# Project Info
 As a final project for a computer architecture course, I was tasked with simulating a single-cycle processor
 using the MIPS instruction set.  The processor supports the following instructions: add, addi, slt, beq, j, lw, sw.
 
@@ -28,3 +22,7 @@ contents should be left in this state at completion:
 # Register          26: 0x00000000 - Register          27: 0x00000000
 # Register          28: 0x00000000 - Register          29: 0x00000000
 # Register          30: 0x00000000 - Register          31: 0x00000000
+
+Testbench to run: cpu_tb.v
+
+Simulation time: 6100000 ps (At least this duration, as testbench will also stop simulation at this point)
